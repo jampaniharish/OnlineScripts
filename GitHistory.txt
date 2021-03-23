@@ -1,0 +1,33 @@
+$ history
+    1  pwd
+    2  pwd
+    3  cd c:\users
+    4  pwd
+    5  cd hjam/
+    6  cd desktop
+    7  cd C:\Users\hjam\OneDrive - Novo Nordisk\Desktop\LearningsAndSubscriptions\Git
+    8  cd C:\Users\hjam\OneDrive - Novo Nordisk\Desktop\LearningsAndSubscriptions\Git
+    9  cd "C:\Users\hjam\OneDrive - Novo Nordisk\Desktop\LearningsAndSubscriptions\Git"
+   10  pwd
+   11  cls
+   12  clear
+   13  ls -la
+   14  cd
+   15  cd C:\Users\hjam\OneDrive - Novo Nordisk\Desktop\LearningsAndSubscriptions\Git
+   16  cd C:\Users\hjam\OneDrive - Novo Nordisk\Desktop\LearningsAndSubscriptions\Git
+   17  git "C:\Users\hjam\OneDrive - Novo Nordisk\Desktop\LearningsAndSubscriptions\Git"
+   18  cd "C:\Users\hjam\OneDrive - Novo Nordisk\Desktop\LearningsAndSubscriptions\Git"
+   19  pwd
+   20  git clone https://github.com/jampaniharish/OnlineScripts.git ONlineScripts_repo
+   21  git clone https://github.com/jampaniharish/OnlineScripts onlinescript_repo
+   22  git clone https://github.com/jampaniharish/OnlineScripts onlinescript_repo
+   23  cd onlinescript_repo/
+   24  pwd
+   25  ls -la
+   26  git status
+   27  .git
+   28  cd C:\Users\hjam\OneDrive - Novo Nordisk\Desktop\LearningsAndSubscriptions\Git\onlinescript_repo
+   29  cd "C:\Users\hjam\OneDrive - Novo Nordisk\Desktop\LearningsAndSubscriptions\Git\onlinescript_repo"
+   30  git status
+   31  git status
+   32  history
