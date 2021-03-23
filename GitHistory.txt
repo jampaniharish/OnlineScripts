@@ -58,3 +58,17 @@ After doing this, you may fix the identity used for this commit with:
  create mode 100644 GitHistory.txt
  create mode 100644 README.md
 
+$ git push origin master
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (7/7), 1.36 KiB | 465.00 KiB/s, done.
+Total 7 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), done.
+To https://github.com/jampaniharish/OnlineScripts
+   a77ef5c..e5f402d  master -> master
+
+HJAM@LCINBG541354 MINGW64 ~/OneDrive - Novo Nordisk/Desktop/LearningsAndSubscriptions/Git/onlinescript_repo (master)
+$
+
