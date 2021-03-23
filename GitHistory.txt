@@ -115,3 +115,22 @@ $
 
 Here by using ssh-keygen -o command I have generated an SSH key to my local computer used default path nothing to change and cat that that file copy the SSH key and just go to settings on GIT account in SSH key settings click new SSH key add this code and add a name to it. This will help you not asking the username and password every time yo do the git push to the actual git repository online.
 
+The above did not work checking again. after adding below commands
+
+HJAM@LCINBG541354 MINGW64 ~/OneDrive - Novo Nordisk/Desktop/LearningsAndSubscriptions/Git/onlinescript_repo (master)
+$ git remote -v
+origin  https://github.com/jampaniharish/OnlineScripts (fetch)
+origin  https://github.com/jampaniharish/OnlineScripts (push)
+
+HJAM@LCINBG541354 MINGW64 ~/OneDrive - Novo Nordisk/Desktop/LearningsAndSubscriptions/Git/onlinescript_repo (master)
+$ git remote set-url origin git@github.com
+
+HJAM@LCINBG541354 MINGW64 ~/OneDrive - Novo Nordisk/Desktop/LearningsAndSubscriptions/Git/onlinescript_repo (master)
+$ git remote -v
+origin  git@github.com (fetch)
+origin  git@github.com (push)
+
+HJAM@LCINBG541354 MINGW64 ~/OneDrive - Novo Nordisk/Desktop/LearningsAndSubscriptions/Git/onlinescript_repo (master)
+$
+
+
