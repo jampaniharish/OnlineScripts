@@ -71,4 +71,47 @@ To https://github.com/jampaniharish/OnlineScripts
 
 HJAM@LCINBG541354 MINGW64 ~/OneDrive - Novo Nordisk/Desktop/LearningsAndSubscriptions/Git/onlinescript_repo (master)
 $
+   39  git status
+   40  git commit
+   41  git commit -a
+   42  git add GitHistory.txt
+   43  git commit
+   44  git status
+   45  git commit -m "history creation"
+   46  git push origin master
+   47  git push origin master
+   48  git push origin master
+   49  git status
+   50  git add README.md
+   51  git status
+   52  git log
+   53  git commit -m "This is commit wothout add on second file"
+   54  git status
+   55  git status
+   56  git add README.md
+   57  git commit -m "adding my readme again"
+   58  git status
+   59  git push origin master
+   60  git push origin master
+   61  git status
+   62  git add GitHistory.txt
+   63  git commit -m "last commit"
+   64  git push origin master
+   65  git status
+   66  cat ./gitconfig
+   67  cat ~./gitconfig
+   68  ls -la
+   69  cd .git/
+   70  ls -la
+   71  cat ~./gitconfig
+   72  cat ~./config
+   73  cat ./config
+   74  ssh-keygen -o
+   75  cat /c/Users/hjam/.ssh/id_rsa.pub
+   76  git status
+   77  cd ..
+   78  git status
+   79  history
+
+Here by using ssh-keygen -o command I have generated an SSH key to my local computer used default path nothing to change and cat that that file copy the SSH key and just go to settings on GIT account in SSH key settings click new SSH key add this code and add a name to it. This will help you not asking the username and password every time yo do the git push to the actual git repository online.
 
