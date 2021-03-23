@@ -31,3 +31,30 @@ $ history
    30  git status
    31  git status
    32  history
+   33  git status
+   34  git add README.md
+   35  git status
+   36  git add GitHistory.txt
+   37  git commit -m "Intial Commit"
+   38  history
+
+
+$ git commit -m "Intial Commit"
+[master 3dfef85] Intial Commit
+ Committer: HJAM (Hareesh Jampani) <HJAM@novonordisk.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 34 insertions(+)
+ create mode 100644 GitHistory.txt
+ create mode 100644 README.md
+
