@@ -133,4 +133,41 @@ origin  git@github.com (push)
 HJAM@LCINBG541354 MINGW64 ~/OneDrive - Novo Nordisk/Desktop/LearningsAndSubscriptions/Git/onlinescript_repo (master)
 $
 
+***** Finally the belwo code worked for SSH without asking username and password *****
+
+The major change is instead of just using github.com add the repository also remember that we need to change to SSH from http to work withour password.
+
+git remote set-url origin git@github.com
+git remote set-url origin git@github.com:jampaniharish/OnlineScripts.git
+
+HJAM@LCINBG541354 MINGW64 ~/OneDrive - Novo Nordisk/Desktop/LearningsAndSubscriptions/Git/onlinescript_repo (master)
+$ git push origin master
+fatal: 'git@github.com' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+HJAM@LCINBG541354 MINGW64 ~/OneDrive - Novo Nordisk/Desktop/LearningsAndSubscriptions/Git/onlinescript_repo (master)
+$ git remote set-url origin git@github.com:jampaniharish/OnlineScripts.git
+
+HJAM@LCINBG541354 MINGW64 ~/OneDrive - Novo Nordisk/Desktop/LearningsAndSubscriptions/Git/onlinescript_repo (master)
+$ git remote -v
+origin  git@github.com:jampaniharish/OnlineScripts.git (fetch)
+origin  git@github.com:jampaniharish/OnlineScripts.git (push)
+
+HJAM@LCINBG541354 MINGW64 ~/OneDrive - Novo Nordisk/Desktop/LearningsAndSubscriptions/Git/onlinescript_repo (master)
+$ git push origin master
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 458 bytes | 458.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To github.com:jampaniharish/OnlineScripts.git
+   6a96bf4..80e50bb  master -> master
+
+HJAM@LCINBG541354 MINGW64 ~/OneDrive - Novo Nordisk/Desktop/LearningsAndSubscriptions/Git/onlinescript_repo (master)
+$
 
